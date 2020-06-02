@@ -12,8 +12,6 @@ resources:
 
 variables:
   tag: 'latest'
-  imageName: 'ikifar/docker-unifi'
-
 stages:
 - stage: Build
   displayName: Build image
