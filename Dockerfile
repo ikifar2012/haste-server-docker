@@ -1,4 +1,4 @@
-FROM node:16.11
+FROM node:16.13.2
 WORKDIR /app
 RUN git clone https://github.com/seejohnrun/haste-server.git /app
 COPY config.js /app
